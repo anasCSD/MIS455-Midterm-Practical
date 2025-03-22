@@ -1,11 +1,12 @@
 body {
     margin: 0;
     font-family: Arial, sans-serif;
+    background-color:bisque;
    
    
 }
 
-/* Navbar */
+
 .navbar {
     display: flex;
     justify-content: space-between;
