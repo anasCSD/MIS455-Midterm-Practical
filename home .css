@@ -1,0 +1,109 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: url('backgroundshop.avif') no-repeat center/cover;
+   
+}
+
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 50px;
+    height: auto;
+    background-color: #3733f8;
+    color: white;
+}
+.navbar ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+.navbar ul li a {
+    color: white;
+    text-decoration: none;
+    transition: 0.3s;
+    padding: 10px 15px;
+}
+.navbar ul li a:hover {
+    color: #f39c12;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 5px;
+}
+
+
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background: url('hero.jpg') no-repeat center/cover;
+    width: 200 PX;
+    height: 200px;
+    color: white;
+    margin:20px ;
+}
+.hero-content {
+    background: rgba(0, 0, 0, 0.6);
+    padding: 20px;
+    border-radius: 10px;
+    backdrop-filter: blur(5px);
+}
+.hero button {
+    background-color: #f39c12;
+    color: white;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s;
+    font-size: 16px;
+    border-radius: 5px;
+}
+.hero button:hover {
+    background-color: #e67e22;
+    transform: scale(1.05);
+}
+
+
+.featured {
+    text-align: center;
+    padding: 50px 20px;
+}
+.category-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.category-item {
+    text-align: center;
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+}
+.category-item img {
+    width: 300px;
+    height: auto;
+    border-radius: 10px;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s;
+}
+.category-item img:hover {
+    transform: scale(1.1);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+.category-item p {
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+footer {
+    background: #fae88e;
+    color: rgb(22, 21, 21);
+  
+    text-align: center;
+    padding: 10px;
+    margin-top: 10px;
+    font-size: 14px;
+    
+}
