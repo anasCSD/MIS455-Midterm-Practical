@@ -9,7 +9,7 @@ body {
 .welcome {
     text-align: center;
     padding: 40px 20px;
-    background: linear-gradient(to right, #c2e0f2, #766103); /* Gradient background */
+    background: linear-gradient(to right, #04c2db, #766103); 
     color: rgb(75, 36, 36);
     font-size: 1.5em;
     font-weight: bold;
