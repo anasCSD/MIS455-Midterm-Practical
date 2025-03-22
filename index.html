@@ -1,10 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <link rel="stylesheet" href="home.css" />
-  </head>
-  <body></body>
-</html>
+  <link rel="stylesheet" href="home.css">
+  <script src="home.js"></script>
+</head>
+<body>
+   
+    <header>
+        <nav class="navbar">
+            <div class="logo">AnaS Online Store</div>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="product.html">Products</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Exclusive Eid Collection</h1>
+            <p>Discover elegant fashion for every occasion</p>
+            <button onclick="shopNow()">Shop Now</button>
+        </div>
+    </section>
+
+    
+    <section class="featured">
+        <h2>Shop By Category : </h2>
+        <div class="category-container">
+            <div class="category-item" onclick="redirectToProductPage()">
+                <img src="women fashion.webp" alt="Women's Fashion">
+                <p>Women's Fashion</p>
+            </div>
+            <div class="category-item" onclick="redirectToProductPage()">
+                <img src="mens fashion.jpg" alt="Men's Fashion">
+                <p>Men's Fashion</p>
+            </div>
+            <div class="category-item" onclick="redirectToProductPage()">
+                <img src="kids fasion.jpg" alt="Kids' Fashion">
+                <p>Kids' Fashion</p>
+            </div>
+        </div>
+    </section>
+
+  
+    <footer>
+        <h3>INfo </h3>
+        <p>&copy;AnaS Clothing Company Limited</p>
+        <p>Dhaka , Bangladesh</p>
+        <a href="mailto: anaszaman0411@gmail.com"></a>
+        <p>Contacr :  0123456789</p>
+    </footer>
